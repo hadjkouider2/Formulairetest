@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULAIRE</title>
+</head>
+<body>
+    <!-- FORMULAIRE -->
+     <h1>Formulaire</h1>
+         
+     <section>
+        <fieldset widht="50%">
+        <form action="action-php" method="post">
+
+        
+        
+            <label for="name">Nom</label>  <input id="name" type="text" placeholder="Entrer votre nom"><br>
+            <label for="first-name">First name</label>  <input id="first-name"type="text" placeholder="Entrer votre first name"><br>
+            <label for="date">Date</label>  <input id="date" type="date" ><br>
+            <label for="datetime-locale">Datetime-local</label>  <input id="datetime-locale" type="datetime-local" ><br>
+            <label for="Age">Age</label>  <input id="Age" type="number" min="0" max="99" step="1"
+            value="18"><br>
+            <label for="password">Password</label>  <input id="password" type="password" placeholder="Entrer votre password"><br>
+            <label for="email">Email</label>  <input id="Email" type="mailto" placeholder="Entrer votre email"><br>
+            <label for="phone-number">Phone number</label>  <input id="phone-number" type="number"><br>
+    <!-- input select -->
+            <label for="gender">Genre</label>
+            <select id="gender"><option value="homme">Homme</option><option selected value="femme">Femme</option>
+            </select>
+             <br>
+             <label for="search">Search</label>  <input id="search" type="text"><br>
+             <label for="month">Month</label>  <input id="month" type="date"><br>
+             <label for="time">Time</label>  <input id="time" type="time"><br>
+             <label for="week">Week</label>  <input type="week"><br>
+    <!-- input de type Radio -->
+               
+             <input type="radio" name="type" id="humain">
+             <label for="human">human</label>
+             <input type="radio" name="type" checked id="dog">
+             <label for="dog">dog</label>
+             <input type="radio" name="type" id="cat">
+             <label for="cat">cat</label><br>
+    <!-- zone de texte -->
+        
+
+             <textarea cols="30" rows="10" placeholder="Entrer votre demande ici"></textarea><br>
+
+    <!-- input checbox -->
+             <label><input type="checkbox"> Accepter les cgv</label><br>
+             <input type="submit" value="valider">
+        </fieldset>    
+       </form>
+
+    <!-- mail et envoie de fichier  -->
+    <footer>
+        <fieldset>
+        <a href="mailto:benboualihadjkouider@gmail.com ">Ecrivez-moi</a>
+        <br>
+        <a href="notice.txt"
+        download="nom-du-fichier">Telecharger la notice </a>
+    </footer>
+
+     </section>
+       </fieldset>
+</body>
+</html>
